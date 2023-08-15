@@ -40,7 +40,8 @@ public class TokenManager {
 
 		catch(Exception e)
 		{
-			throw new RuntimeException("ABORT !!! Renew token failed");
+			e.printStackTrace();
+			throw new RuntimeException("ABORT !!! Failed to get token");
 		}
 
 		return access_token;
@@ -60,7 +61,7 @@ public class TokenManager {
 
 		if(response.statusCode()!=200)
 		{
-			throw new RuntimeException("ABORT !!! Renew token failed");
+			throw new RuntimeException("ABORT !!! Failed to get token");
 
 		}
 
