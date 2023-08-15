@@ -1,0 +1,16 @@
+com\spotify\oauth2\api\TokenManager.class
+com\spotify\oauth2\utils\PropertyUtils.class
+com\spotify\oauth2\pojo\ExternalUrls.class
+com\spotify\oauth2\pojo\InnerError.class
+com\spotify\oauth2\pojo\Playlist$PlaylistBuilder.class
+com\spotify\oauth2\pojo\Error.class
+com\spotify\oauth2\pojo\Tracks.class
+com\spotify\oauth2\api\applicationApi\PlaylistAPI.class
+com\spotify\oauth2\pojo\Followers.class
+com\spotify\oauth2\tests\PlaylistTests.class
+com\spotify\oauth2\api\SpecBuilder.class
+com\spotify\oauth2\pojo\Owner.class
+com\spotify\oauth2\pojo\ExternalUrls__1.class
+com\spotify\oauth2\pojo\Playlist.class
+com\spotify\oauth2\api\RestResource.class
+com\spotify\oauth2\api\Route.class
