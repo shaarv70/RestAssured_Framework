@@ -17,6 +17,11 @@ public class FakerUtils {
 		return "Description"+faker.regexify("[A-Za-z0-9,&.@/_-]{50}");
 	}
 
+	public static String generate_fakeToken()
+	{
+		Faker faker= new Faker();
+		return "Description"+faker.regexify("[A-Za-z0-9]{5}");
+	}
 
 
 

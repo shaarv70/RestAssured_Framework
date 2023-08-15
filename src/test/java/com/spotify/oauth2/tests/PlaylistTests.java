@@ -108,7 +108,7 @@ public class PlaylistTests extends BaseTest
 	{
 
 		Playlist requestPlaylist= RequestBuilder("", "Framework updated playlist", false);
-		String invalid_token="1234";
+		String invalid_token=FakerUtils.generate_fakeToken();
 		String account_id= PropertyUtils.get_instance().getString(Route.ACCOUNT_ID);;
 
 		Response response= PlaylistAPI.Post(invalid_token,requestPlaylist,account_id);
