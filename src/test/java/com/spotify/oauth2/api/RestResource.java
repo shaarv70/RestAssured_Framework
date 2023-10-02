@@ -17,7 +17,7 @@ public class RestResource extends SpecBuilder{
 
 				when().post(Route.API+Route.TOKEN).
 
-				then().spec(SpecBuilder.getResponseSpecefication()).
+				then().spec(getResponseSpecefication()).
 				extract().response();
 
 	}

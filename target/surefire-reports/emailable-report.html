@@ -9,14 +9,61 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Surefire suite</th></tr>
-<tr><td><a href="#t0">Surefire test</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">3,228</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">5</td><td class="num">1,063</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">com.spotify.oauth2.tests.PlaylistTests</td><td><a href="#m0">GetPlaylist</a></td><td rowspan="1">1692038662829</td><td rowspan="1">2952</td></tr><tr class="passedeven"><td><a href="#m1">ShouldBeAbleToCreatePlaylist</a></td><td rowspan="1">1692038662829</td><td rowspan="1">3071</td></tr><tr class="passedeven"><td><a href="#m2">ShouldBeAbleToCreatePlaylist_negative_scenario_expiredtoken</a></td><td rowspan="1">1692038662829</td><td rowspan="1">2200</td></tr><tr class="passedeven"><td><a href="#m3">ShouldBeAbleToCreatePlaylist_negative_scenario_namemissing</a></td><td rowspan="1">1692038662829</td><td rowspan="1">2900</td></tr><tr class="passedeven"><td><a href="#m4">UpdatePlaylist</a></td><td rowspan="1">1692038662829</td><td rowspan="1">3000</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="5">com.spotify.oauth2.tests.PlaylistTests</td><td><a href="#m0">GetPlaylist</a></td><td rowspan="1">1696242091245</td><td rowspan="1">863</td></tr><tr class="failedeven"><td><a href="#m1">ShouldBeAbleToCreatePlaylist</a></td><td rowspan="1">1696242091245</td><td rowspan="1">865</td></tr><tr class="failedeven"><td><a href="#m2">ShouldBeAbleToCreatePlaylist_negative_scenario_expiredtoken</a></td><td rowspan="1">1696242091245</td><td rowspan="1">862</td></tr><tr class="failedeven"><td><a href="#m3">ShouldBeAbleToCreatePlaylist_negative_scenario_namemissing</a></td><td rowspan="1">1696242091245</td><td rowspan="1">867</td></tr><tr class="failedeven"><td><a href="#m4">UpdatePlaylist</a></td><td rowspan="1">1696242091245</td><td rowspan="1">866</td></tr></tbody>
 </table>
-<h2>Surefire test</h2><h3 id="m0">com.spotify.oauth2.tests.PlaylistTests#GetPlaylist</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.spotify.oauth2.tests.PlaylistTests#ShouldBeAbleToCreatePlaylist</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.spotify.oauth2.tests.PlaylistTests#ShouldBeAbleToCreatePlaylist_negative_scenario_expiredtoken</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.spotify.oauth2.tests.PlaylistTests#ShouldBeAbleToCreatePlaylist_negative_scenario_namemissing</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.spotify.oauth2.tests.PlaylistTests#UpdatePlaylist</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Surefire test</h2><h3 id="m0">com.spotify.oauth2.tests.PlaylistTests#GetPlaylist</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: ABORT !!! Failed to get token
+	at com.spotify.oauth2.api.TokenManager.get_token(TokenManager.java:45)
+	at com.spotify.oauth2.api.applicationApi.PlaylistAPI.Get(PlaylistAPI.java:38)
+	at com.spotify.oauth2.tests.PlaylistTests.GetPlaylist(PlaylistTests.java:61)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.spotify.oauth2.tests.PlaylistTests#ShouldBeAbleToCreatePlaylist</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: ABORT !!! Failed to get token
+	at com.spotify.oauth2.api.TokenManager.get_token(TokenManager.java:45)
+	at com.spotify.oauth2.api.applicationApi.PlaylistAPI.Post(PlaylistAPI.java:22)
+	at com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToCreatePlaylist(PlaylistTests.java:45)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.spotify.oauth2.tests.PlaylistTests#ShouldBeAbleToCreatePlaylist_negative_scenario_expiredtoken</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Base URI cannot be null
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:53)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:240)
+	at io.restassured.internal.RequestSpecificationImpl.baseUri(RequestSpecificationImpl.groovy:704)
+	at io.restassured.builder.RequestSpecBuilder.setBaseUri(RequestSpecBuilder.java:1112)
+	at com.spotify.oauth2.api.SpecBuilder.getRequestSpecefication(SpecBuilder.java:18)
+	at com.spotify.oauth2.api.RestResource.Post(RestResource.java:30)
+	at com.spotify.oauth2.api.applicationApi.PlaylistAPI.Post(PlaylistAPI.java:30)
+	at com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToCreatePlaylist_negative_scenario_expiredtoken(PlaylistTests.java:114)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.spotify.oauth2.tests.PlaylistTests#ShouldBeAbleToCreatePlaylist_negative_scenario_namemissing</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: ABORT !!! Failed to get token
+	at com.spotify.oauth2.api.TokenManager.get_token(TokenManager.java:45)
+	at com.spotify.oauth2.api.applicationApi.PlaylistAPI.Post(PlaylistAPI.java:22)
+	at com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToCreatePlaylist_negative_scenario_namemissing(PlaylistTests.java:98)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.spotify.oauth2.tests.PlaylistTests#UpdatePlaylist</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: ABORT !!! Failed to get token
+	at com.spotify.oauth2.api.TokenManager.get_token(TokenManager.java:45)
+	at com.spotify.oauth2.api.applicationApi.PlaylistAPI.Update(PlaylistAPI.java:45)
+	at com.spotify.oauth2.tests.PlaylistTests.UpdatePlaylist(PlaylistTests.java:78)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

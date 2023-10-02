@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/5/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Aug 15 00:14:22 IST 2023</td>
+<td>Started on:</td><td>Mon Oct 02 15:51:31 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>3 seconds (3228 ms)</td>
+<tr><td>Total time:</td><td>1 seconds (1063 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -76,30 +76,196 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.spotify.oauth2.tests.PlaylistTests.UpdatePlaylist()'><b>UpdatePlaylist</b><br>Test class: com.spotify.oauth2.tests.PlaylistTests</td>
-<td></td>
-<td>3</td>
-<td>com.spotify.oauth2.tests.PlaylistTests@7f9ab969</td></tr>
-<tr>
 <td title='com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToCreatePlaylist_negative_scenario_expiredtoken()'><b>ShouldBeAbleToCreatePlaylist_negative_scenario_expiredtoken</b><br>Test class: com.spotify.oauth2.tests.PlaylistTests</td>
-<td></td>
-<td>2</td>
-<td>com.spotify.oauth2.tests.PlaylistTests@7f9ab969</td></tr>
+<td><div><pre>java.lang.IllegalArgumentException: Base URI cannot be null
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:53)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:240)
+	at io.restassured.internal.RequestSpecificationImpl.baseUri(RequestSpecificationImpl.groovy:704)
+	at io.restassured.builder.RequestSpecBuilder.setBaseUri(RequestSpecBuilder.java:1112)
+	at com.spotify.oauth2.api.SpecBuilder.getRequestSpecefication(SpecBuilder.java:18)
+	at com.spotify.oauth2.api.RestResource.Post(RestResource.java:30)
+	at com.spotify.oauth2.api.applicationApi.PlaylistAPI.Post(PlaylistAPI.java:30)
+	at com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToCreatePlaylist_negative_scenario_expiredtoken(PlaylistTests.java:114)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1143480127", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1143480127'><pre>java.lang.IllegalArgumentException: Base URI cannot be null
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:53)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:240)
+	at io.restassured.internal.RequestSpecificationImpl.baseUri(RequestSpecificationImpl.groovy:704)
+	at io.restassured.builder.RequestSpecBuilder.setBaseUri(RequestSpecBuilder.java:1112)
+	at com.spotify.oauth2.api.SpecBuilder.getRequestSpecefication(SpecBuilder.java:18)
+	at com.spotify.oauth2.api.RestResource.Post(RestResource.java:30)
+	at com.spotify.oauth2.api.applicationApi.PlaylistAPI.Post(PlaylistAPI.java:30)
+	at com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToCreatePlaylist_negative_scenario_expiredtoken(PlaylistTests.java:114)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>0</td>
+<td>com.spotify.oauth2.tests.PlaylistTests@65fd6708</td></tr>
 <tr>
 <td title='com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToCreatePlaylist_negative_scenario_namemissing()'><b>ShouldBeAbleToCreatePlaylist_negative_scenario_namemissing</b><br>Test class: com.spotify.oauth2.tests.PlaylistTests</td>
-<td></td>
-<td>2</td>
-<td>com.spotify.oauth2.tests.PlaylistTests@7f9ab969</td></tr>
+<td><div><pre>java.lang.RuntimeException: ABORT !!! Failed to get token
+	at com.spotify.oauth2.api.TokenManager.get_token(TokenManager.java:45)
+	at com.spotify.oauth2.api.applicationApi.PlaylistAPI.Post(PlaylistAPI.java:22)
+	at com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToCreatePlaylist_negative_scenario_namemissing(PlaylistTests.java:98)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1213678254", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1213678254'><pre>java.lang.RuntimeException: ABORT !!! Failed to get token
+	at com.spotify.oauth2.api.TokenManager.get_token(TokenManager.java:45)
+	at com.spotify.oauth2.api.applicationApi.PlaylistAPI.Post(PlaylistAPI.java:22)
+	at com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToCreatePlaylist_negative_scenario_namemissing(PlaylistTests.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>0</td>
+<td>com.spotify.oauth2.tests.PlaylistTests@65fd6708</td></tr>
 <tr>
 <td title='com.spotify.oauth2.tests.PlaylistTests.GetPlaylist()'><b>GetPlaylist</b><br>Test class: com.spotify.oauth2.tests.PlaylistTests</td>
-<td></td>
-<td>2</td>
-<td>com.spotify.oauth2.tests.PlaylistTests@7f9ab969</td></tr>
+<td><div><pre>java.lang.RuntimeException: ABORT !!! Failed to get token
+	at com.spotify.oauth2.api.TokenManager.get_token(TokenManager.java:45)
+	at com.spotify.oauth2.api.applicationApi.PlaylistAPI.Get(PlaylistAPI.java:38)
+	at com.spotify.oauth2.tests.PlaylistTests.GetPlaylist(PlaylistTests.java:61)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace114924643", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace114924643'><pre>java.lang.RuntimeException: ABORT !!! Failed to get token
+	at com.spotify.oauth2.api.TokenManager.get_token(TokenManager.java:45)
+	at com.spotify.oauth2.api.applicationApi.PlaylistAPI.Get(PlaylistAPI.java:38)
+	at com.spotify.oauth2.tests.PlaylistTests.GetPlaylist(PlaylistTests.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>0</td>
+<td>com.spotify.oauth2.tests.PlaylistTests@65fd6708</td></tr>
 <tr>
 <td title='com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToCreatePlaylist()'><b>ShouldBeAbleToCreatePlaylist</b><br>Test class: com.spotify.oauth2.tests.PlaylistTests<br>Test method: Should be able to create a playlist</td>
-<td></td>
-<td>3</td>
-<td>com.spotify.oauth2.tests.PlaylistTests@7f9ab969</td></tr>
+<td><div><pre>java.lang.RuntimeException: ABORT !!! Failed to get token
+	at com.spotify.oauth2.api.TokenManager.get_token(TokenManager.java:45)
+	at com.spotify.oauth2.api.applicationApi.PlaylistAPI.Post(PlaylistAPI.java:22)
+	at com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToCreatePlaylist(PlaylistTests.java:45)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace379930456", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace379930456'><pre>java.lang.RuntimeException: ABORT !!! Failed to get token
+	at com.spotify.oauth2.api.TokenManager.get_token(TokenManager.java:45)
+	at com.spotify.oauth2.api.applicationApi.PlaylistAPI.Post(PlaylistAPI.java:22)
+	at com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToCreatePlaylist(PlaylistTests.java:45)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>0</td>
+<td>com.spotify.oauth2.tests.PlaylistTests@65fd6708</td></tr>
+<tr>
+<td title='com.spotify.oauth2.tests.PlaylistTests.UpdatePlaylist()'><b>UpdatePlaylist</b><br>Test class: com.spotify.oauth2.tests.PlaylistTests</td>
+<td><div><pre>java.lang.RuntimeException: ABORT !!! Failed to get token
+	at com.spotify.oauth2.api.TokenManager.get_token(TokenManager.java:45)
+	at com.spotify.oauth2.api.applicationApi.PlaylistAPI.Update(PlaylistAPI.java:45)
+	at com.spotify.oauth2.tests.PlaylistTests.UpdatePlaylist(PlaylistTests.java:78)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1107493261", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1107493261'><pre>java.lang.RuntimeException: ABORT !!! Failed to get token
+	at com.spotify.oauth2.api.TokenManager.get_token(TokenManager.java:45)
+	at com.spotify.oauth2.api.applicationApi.PlaylistAPI.Update(PlaylistAPI.java:45)
+	at com.spotify.oauth2.tests.PlaylistTests.UpdatePlaylist(PlaylistTests.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>0</td>
+<td>com.spotify.oauth2.tests.PlaylistTests@65fd6708</td></tr>
 </table><p>
 </body>
 </html>

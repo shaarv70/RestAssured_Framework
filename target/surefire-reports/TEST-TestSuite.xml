@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="4.092" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="2.022" tests="5" errors="0" skipped="0" failures="5">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\arvind.sharma3\AppData\Local\Temp\surefire1875350016764947238\surefirebooter-20230815001421275_3.jar C:\Users\arvind.sharma3\AppData\Local\Temp\surefire1875350016764947238 2023-08-15T00-14-21_171-jvmRun1 surefire-20230815001421275_1tmp surefire_0-20230815001421275_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\arvind.sharma3\AppData\Local\Temp\surefire10665268454304059128\surefirebooter-20231002155129493_3.jar C:\Users\arvind.sharma3\AppData\Local\Temp\surefire10665268454304059128 2023-10-02T15-51-29_354-jvmRun1 surefire-20231002155129493_1tmp surefire_0-20231002155129493_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\arvind.sharma3\Selenium-workspace\RestAssured_Framework\target\test-classes;C:\Users\arvind.sharma3\Selenium-workspace\RestAssured_Framework\target\classes;C:\Users\arvind.sharma3\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\arvind.sharma3\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\arvind.sharma3\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\arvind.sharma3\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\arvind.sharma3\.m2\repository\io\rest-assured\rest-assured\5.3.1\rest-assured-5.3.1.jar;C:\Users\arvind.sharma3\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\arvind.sharma3\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\arvind.sharma3\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\arvind.sharma3\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\arvind.sharma3\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\arvind.sharma3\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\arvind.sharma3\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\arvind.sharma3\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\arvind.sharma3\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\arvind.sharma3\.m2\repository\io\rest-assured\json-path\5.3.1\json-path-5.3.1.jar;C:\Users\arvind.sharma3\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\arvind.sharma3\.m2\repository\io\rest-assured\rest-assured-common\5.3.1\rest-assured-common-5.3.1.jar;C:\Users\arvind.sharma3\.m2\repository\io\rest-assured\xml-path\5.3.1\xml-path-5.3.1.jar;C:\Users\arvind.sharma3\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\arvind.sharma3\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\arvind.sharma3\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\arvind.sharma3\.m2\repository\io\rest-assured\json-schema-validator\5.3.1\json-schema-validator-5.3.1.jar;C:\Users\arvind.sharma3\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\arvind.sharma3\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\arvind.sharma3\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\arvind.sharma3\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\arvind.sharma3\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\arvind.sharma3\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\arvind.sharma3\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\arvind.sharma3\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\arvind.sharma3\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\arvind.sharma3\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\arvind.sharma3\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\arvind.sharma3\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\arvind.sharma3\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\arvind.sharma3\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\arvind.sharma3\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\arvind.sharma3\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\arvind.sharma3\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\arvind.sharma3\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\arvind.sharma3\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\arvind.sharma3\.m2\repository\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar;C:\Users\arvind.sharma3\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\arvind.sharma3\.m2\repository\org\projectlombok\lombok\1.18.28\lombok-1.18.28.jar;C:\Users\arvind.sharma3\.m2\repository\org\projectlombok\lombok-maven-plugin\1.18.20.0\lombok-maven-plugin-1.18.20.0.jar;C:\Users\arvind.sharma3\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\arvind.sharma3\.m2\repository\org\sonatype\plexus\plexus-build-api\0.0.7\plexus-build-api-0.0.7.jar;C:\Users\arvind.sharma3\.m2\repository\org\codehaus\plexus\plexus-utils\1.5.8\plexus-utils-1.5.8.jar;C:\Users\arvind.sharma3\.m2\repository\io\qameta\allure\allure-testng\2.23.0\allure-testng-2.23.0.jar;C:\Users\arvind.sharma3\.m2\repository\io\qameta\allure\allure-java-commons\2.23.0\allure-java-commons-2.23.0.jar;C:\Users\arvind.sharma3\.m2\repository\io\qameta\allure\allure-model\2.23.0\allure-model-2.23.0.jar;C:\Users\arvind.sharma3\.m2\repository\io\qameta\allure\allure-test-filter\2.23.0\allure-test-filter-2.23.0.jar;C:\Users\arvind.sharma3\.m2\repository\io\qameta\allure\allure-rest-assured\2.23.0\allure-rest-assured-2.23.0.jar;C:\Users\arvind.sharma3\.m2\repository\io\qameta\allure\allure-attachments\2.23.0\allure-attachments-2.23.0.jar;C:\Users\arvind.sharma3\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\arvind.sharma3\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\arvind.sharma3\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\arvind.sharma3\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\arvind.sharma3\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -25,14 +25,14 @@
     <property name="java.version.date" value="2023-01-17"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
     <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
     <property name="basedir" value="C:\Users\arvind.sharma3\Selenium-workspace\RestAssured_Framework"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\arvind.sharma3\AppData\Local\Temp\surefire1875350016764947238\surefirebooter-20230815001421275_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\arvind.sharma3\AppData\Local\Temp\surefire10665268454304059128\surefirebooter-20231002155129493_3.jar"/>
     <property name="user.script" value=""/>
-    <property name="BASE_URI" value="https://api.spotify.com"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.6+9-LTS-190"/>
     <property name="user.name" value="arvind.sharma3"/>
@@ -47,351 +47,307 @@
     <property name="java.version" value="17.0.6"/>
     <property name="user.dir" value="C:\Users\arvind.sharma3\Selenium-workspace\RestAssured_Framework"/>
     <property name="os.arch" value="amd64"/>
-    <property name="ACCOUNT_BASE_URI" value="https://accounts.spotify.com"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jdk-17/bin/server;C:/Program Files/Java/jdk-17/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk-17\bin;C:\apache-maven-3.9.1\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-17\bin;C:\Users\arvind.sharma3\Downloads\allure-commandline-2.23.1\allure-2.23.1\bin;C:\Users\arvind.sharma3\AppData\Local\Microsoft\WindowsApps;C:\Users\arvind.sharma3\Desktop;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jdk-17/bin/server;C:/Program Files/Java/jdk-17/bin;C:\Python311\Scripts\;C:\Python311\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk-17\bin;C:\apache-maven-3.9.1\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-17\bin;C:\Users\arvind.sharma3\Downloads\allure-commandline-2.23.1\allure-2.23.1\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs;C:\Users\arvind.sharma3\AppData\Local\Microsoft\WindowsApps;C:\Users\arvind.sharma3\AppData\Roaming\npm;C:\Users\arvind.sharma3\Desktop;;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="17.0.6+9-LTS-190"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="ShouldBeAbleToCreatePlaylist_negative_scenario_expiredtoken" classname="com.spotify.oauth2.tests.PlaylistTests" time="2.208">
-    <system-out><![CDATA[STARTING TEST....:UpdatePlaylist
-STARTING TEST....:GetPlaylist
+  <testcase name="UpdatePlaylist" classname="com.spotify.oauth2.tests.PlaylistTests" time="0.893">
+    <failure message="ABORT !!! Failed to get token" type="java.lang.RuntimeException"><![CDATA[java.lang.RuntimeException: ABORT !!! Failed to get token
+	at com.spotify.oauth2.api.TokenManager.get_token(TokenManager.java:45)
+	at com.spotify.oauth2.api.applicationApi.PlaylistAPI.Update(PlaylistAPI.java:45)
+	at com.spotify.oauth2.tests.PlaylistTests.UpdatePlaylist(PlaylistTests.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]></failure>
+    <system-out><![CDATA[STARTING TEST....:GetPlaylist
+STARTING TEST....:UpdatePlaylist
 STARTING TEST....:ShouldBeAbleToCreatePlaylist
-STARTING TEST....:ShouldBeAbleToCreatePlaylist_negative_scenario_expiredtoken
 STARTING TEST....:ShouldBeAbleToCreatePlaylist_negative_scenario_namemissing
+Thread ID27
 Thread ID28
 Thread ID25
 Thread ID24
+STARTING TEST....:ShouldBeAbleToCreatePlaylist_negative_scenario_expiredtoken
 Thread ID26
-Thread ID27
 Renewing token...
-Request method:	POST
-Request URI:	https://accounts.spotify.com/api/token
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	refresh_token=AQBbksxGXOPaWWukwfVgShjhtFnn8cP-j8IiOfz-e2AuIO78OIIOppmi0KqQ9JaMiG0wxeEJL8CbXRbS-aK_JFf9TJ9KiZH5t2OKWeSazWilGQL2QOKKeap_5QOUAESW2IY
-				grant_type=refresh_token
-				client_secret=934d40acbde349509df3ffe3811220f4
-				client_id=d4b338852fe6407c963eb9050e62bc4c
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-Request method:	POST
-Request URI:	https://api.spotify.com/v1/users/h9x04fizo1rcd86beet3hm8yd/playlists
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "description": "Framework updated playlist",
-    "name": "",
-    "public": false
-}
-HTTP/1.1 401 Unauthorized
-www-authenticate: Bearer realm="spotify", error="invalid_token", error_description="Invalid access token"
-access-control-allow-origin: *
-access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
-access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
-access-control-allow-credentials: true
-access-control-max-age: 604800
-content-type: application/json
-content-encoding: gzip
-strict-transport-security: max-age=31536000
-x-content-type-options: nosniff
-date: Mon, 14 Aug 2023 18:44:24 GMT
-server: envoy
-Via: HTTP/2 edgeproxy, 1.1 google
-Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
-Transfer-Encoding: chunked
-
-{
-    "error": {
-        "status": 401,
-        "message": "Invalid access token"
-    }
-}
-HTTP/1.1 200 OK
-date: Mon, 14 Aug 2023 18:44:24 GMT
-content-type: application/json
-vary: Accept-Encoding
-set-cookie: __Host-device_id=AQD5hsnpKlSujhzZNT_gr_hyxlueTForAKFjTzbBZ7xfifuJKcFRF14ns8WmybJ-8JU3Ager1AT9Ol3IPIjJxP0FG9ecWJSrphg;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
-set-cookie: sp_tr=false;Version=1;Domain=accounts.spotify.com;Path=/;Secure;SameSite=Lax
-sp-trace-id: 78d0bfed5808ef3c
-content-encoding: gzip
-x-envoy-upstream-service-time: 27
-server: envoy
-strict-transport-security: max-age=31536000
-x-content-type-options: nosniff
-Via: HTTP/2 edgeproxy, 1.1 google
-Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
-Transfer-Encoding: chunked
-
-{
-    "access_token": "BQATlBc3CDAIMYGZ_7OHWQ2aGJQo_xtZBSTYwwye8cgVuDSnI887hbvsmbqWVgo9gsXZYEPmVBmP3nmjSiWg1k1ZDw49ccpYkddwOUq4VPHPMZljmzqmDilgHqpEPdO67OtPFnSARWjxfNIJd4gkFG2YXRceMQDBmguyFo6SlbqZJuhTOhbOD63zyO8jrgjLg_5yBp5EBmZQyA3vutkIdNDw_dmNz6BcepKC9b-nkh9XunJSPO1YZHEzrQll0890vOwaKV4zhn0Q",
-    "token_type": "Bearer",
-    "expires_in": 3600,
-    "scope": "playlist-read-private playlist-read-collaborative playlist-modify-private playlist-modify-public"
-}
+Renewing token...
+Renewing token...
+Renewing token...
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+java.lang.IllegalArgumentException: Base URI cannot be null
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:53)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:240)
+	at io.restassured.internal.RequestSpecificationImpl.baseUri(RequestSpecificationImpl.groovy:704)
+	at io.restassured.builder.RequestSpecBuilder.setBaseUri(RequestSpecBuilder.java:1112)
+	at com.spotify.oauth2.api.SpecBuilder.getAccountRequestSpec(SpecBuilder.java:31)
+	at com.spotify.oauth2.api.RestResource.postAccount(RestResource.java:15)
+	at com.spotify.oauth2.api.TokenManager.renew_token(TokenManager.java:61)
+	at com.spotify.oauth2.api.TokenManager.get_token(TokenManager.java:28)
+	at com.spotify.oauth2.api.applicationApi.PlaylistAPI.Get(PlaylistAPI.java:38)
+	at com.spotify.oauth2.tests.PlaylistTests.GetPlaylist(PlaylistTests.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+java.lang.IllegalArgumentException: Base URI cannot be null
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.baseUri(RequestSpecificationImpl.groovy:704)
+	at io.restassured.builder.RequestSpecBuilder.setBaseUri(RequestSpecBuilder.java:1112)
+	at com.spotify.oauth2.api.SpecBuilder.getAccountRequestSpec(SpecBuilder.java:31)
+	at com.spotify.oauth2.api.RestResource.postAccount(RestResource.java:15)
+	at com.spotify.oauth2.api.TokenManager.renew_token(TokenManager.java:61)
+	at com.spotify.oauth2.api.TokenManager.get_token(TokenManager.java:28)
+	at com.spotify.oauth2.api.applicationApi.PlaylistAPI.Post(PlaylistAPI.java:22)
+	at com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToCreatePlaylist(PlaylistTests.java:45)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+java.lang.IllegalArgumentException: Base URI cannot be null
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.baseUri(RequestSpecificationImpl.groovy:704)
+	at io.restassured.builder.RequestSpecBuilder.setBaseUri(RequestSpecBuilder.java:1112)
+	at com.spotify.oauth2.api.SpecBuilder.getAccountRequestSpec(SpecBuilder.java:31)
+	at com.spotify.oauth2.api.RestResource.postAccount(RestResource.java:15)
+	at com.spotify.oauth2.api.TokenManager.renew_token(TokenManager.java:61)
+	at com.spotify.oauth2.api.TokenManager.get_token(TokenManager.java:28)
+	at com.spotify.oauth2.api.applicationApi.PlaylistAPI.Update(PlaylistAPI.java:45)
+	at com.spotify.oauth2.tests.PlaylistTests.UpdatePlaylist(PlaylistTests.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+java.lang.IllegalArgumentException: Base URI cannot be null
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.baseUri(RequestSpecificationImpl.groovy:704)
+	at io.restassured.builder.RequestSpecBuilder.setBaseUri(RequestSpecBuilder.java:1112)
+	at com.spotify.oauth2.api.SpecBuilder.getAccountRequestSpec(SpecBuilder.java:31)
+	at com.spotify.oauth2.api.RestResource.postAccount(RestResource.java:15)
+	at com.spotify.oauth2.api.TokenManager.renew_token(TokenManager.java:61)
+	at com.spotify.oauth2.api.TokenManager.get_token(TokenManager.java:28)
+	at com.spotify.oauth2.api.applicationApi.PlaylistAPI.Post(PlaylistAPI.java:22)
+	at com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToCreatePlaylist_negative_scenario_namemissing(PlaylistTests.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
 ]]></system-err>
   </testcase>
-  <testcase name="ShouldBeAbleToCreatePlaylist_negative_scenario_namemissing" classname="com.spotify.oauth2.tests.PlaylistTests" time="2.9">
-    <system-out><![CDATA[Token is Good to Use
-Token is Good to Use
-Token is Good to Use
-Request method:	GET
-Request URI:	https://api.spotify.com/v1/playlists/1GWGkEdrjcaI8ZO4A4RAwm
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-Request method:	POST
-Request URI:	https://api.spotify.com/v1/users/h9x04fizo1rcd86beet3hm8yd/playlists
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "description": "DescriptionoVcZ50_&8&___5_xRIb__M&_6n_&4p_qa4&eUi&eOUA&Ok&Va_",
-    "name": "Playlist,_Wc_1S_X6,52_-F73Yl",
-    "public": false
-}
-Request method:	PUT
-Request URI:	https://api.spotify.com/v1/playlists/1k13LGKEjuQrEDsUP4WE2b
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "description": "Description&8F_1/sw&6C_17b&81LKzM_&Z_n_&f_FXSC4&&Rf_-X_Q&n&&s",
-    "name": "Playlist-_,Vr,_71-0-_b-3,_i2",
-    "public": false
-}
-Request method:	POST
-Request URI:	https://api.spotify.com/v1/users/h9x04fizo1rcd86beet3hm8yd/playlists
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "description": "Description5@m&I,&&&7Xx_WFY_&__r,C_gp4&&r1_,C_w4i,p&Nn&&9r._,",
-    "name": "",
-    "public": false
-}
-HTTP/1.1 400 Bad Request
-content-type: application/json; charset=utf-8
-cache-control: private, max-age=0
-x-robots-tag: noindex, nofollow
-access-control-allow-origin: *
-access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
-access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
-access-control-allow-credentials: true
-access-control-max-age: 604800
-content-encoding: gzip
-strict-transport-security: max-age=31536000
-x-content-type-options: nosniff
-date: Mon, 14 Aug 2023 18:44:25 GMT
-server: envoy
-Via: HTTP/2 edgeproxy, 1.1 google
-Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
-Transfer-Encoding: chunked
-
-{
-    "error": {
-        "status": 400,
-        "message": "Missing required field: name"
-    }
-}
-]]></system-out>
+  <testcase name="ShouldBeAbleToCreatePlaylist_negative_scenario_expiredtoken" classname="com.spotify.oauth2.tests.PlaylistTests" time="0.896">
+    <failure message="Base URI cannot be null" type="java.lang.IllegalArgumentException"><![CDATA[java.lang.IllegalArgumentException: Base URI cannot be null
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:53)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:240)
+	at io.restassured.internal.RequestSpecificationImpl.baseUri(RequestSpecificationImpl.groovy:704)
+	at io.restassured.builder.RequestSpecBuilder.setBaseUri(RequestSpecBuilder.java:1112)
+	at com.spotify.oauth2.api.SpecBuilder.getRequestSpecefication(SpecBuilder.java:18)
+	at com.spotify.oauth2.api.RestResource.Post(RestResource.java:30)
+	at com.spotify.oauth2.api.applicationApi.PlaylistAPI.Post(PlaylistAPI.java:30)
+	at com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToCreatePlaylist_negative_scenario_expiredtoken(PlaylistTests.java:114)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]></failure>
   </testcase>
-  <testcase name="GetPlaylist" classname="com.spotify.oauth2.tests.PlaylistTests" time="2.954">
-    <system-out><![CDATA[HTTP/1.1 200 OK
-content-type: application/json; charset=utf-8
-cache-control: public, max-age=0
-etag: "MC-ImViNzI3MGZjYzQwZjhkMDYwMzI2ZGQ2ZmRmMGJjYzEyIg=="
-x-robots-tag: noindex, nofollow
-access-control-allow-origin: *
-access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
-access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
-access-control-allow-credentials: true
-access-control-max-age: 604800
-content-encoding: gzip
-strict-transport-security: max-age=31536000
-x-content-type-options: nosniff
-date: Mon, 14 Aug 2023 18:44:25 GMT
-server: envoy
-Via: HTTP/2 edgeproxy, 1.1 google
-Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
-Transfer-Encoding: chunked
-
-{
-    "collaborative": false,
-    "description": "Framework playlist",
-    "external_urls": {
-        "spotify": "https://open.spotify.com/playlist/1GWGkEdrjcaI8ZO4A4RAwm"
-    },
-    "followers": {
-        "href": null,
-        "total": 0
-    },
-    "href": "https://api.spotify.com/v1/playlists/1GWGkEdrjcaI8ZO4A4RAwm",
-    "id": "1GWGkEdrjcaI8ZO4A4RAwm",
-    "images": [
-        
-    ],
-    "name": "Pojo playlist",
-    "owner": {
-        "display_name": "h9x04fizo1rcd86beet3hm8yd",
-        "external_urls": {
-            "spotify": "https://open.spotify.com/user/h9x04fizo1rcd86beet3hm8yd"
-        },
-        "href": "https://api.spotify.com/v1/users/h9x04fizo1rcd86beet3hm8yd",
-        "id": "h9x04fizo1rcd86beet3hm8yd",
-        "type": "user",
-        "uri": "spotify:user:h9x04fizo1rcd86beet3hm8yd"
-    },
-    "primary_color": null,
-    "public": false,
-    "snapshot_id": "Miw5MWRjMDVkMWUzNmJhZDQyYzMzYTI5NzJhOTAwZmJiZGIxNmY4YjMy",
-    "tracks": {
-        "href": "https://api.spotify.com/v1/playlists/1GWGkEdrjcaI8ZO4A4RAwm/tracks?offset=0&limit=100",
-        "items": [
-            
-        ],
-        "limit": 100,
-        "next": null,
-        "offset": 0,
-        "previous": null,
-        "total": 0
-    },
-    "type": "playlist",
-    "uri": "spotify:playlist:1GWGkEdrjcaI8ZO4A4RAwm"
-}
-]]></system-out>
+  <testcase name="ShouldBeAbleToCreatePlaylist" classname="com.spotify.oauth2.tests.PlaylistTests" time="0.896">
+    <failure message="ABORT !!! Failed to get token" type="java.lang.RuntimeException"><![CDATA[java.lang.RuntimeException: ABORT !!! Failed to get token
+	at com.spotify.oauth2.api.TokenManager.get_token(TokenManager.java:45)
+	at com.spotify.oauth2.api.applicationApi.PlaylistAPI.Post(PlaylistAPI.java:22)
+	at com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToCreatePlaylist(PlaylistTests.java:45)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]></failure>
   </testcase>
-  <testcase name="UpdatePlaylist" classname="com.spotify.oauth2.tests.PlaylistTests" time="3.001">
-    <system-out><![CDATA[HTTP/1.1 200 OK
-cache-control: private, max-age=0
-x-robots-tag: noindex, nofollow
-access-control-allow-origin: *
-access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
-access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
-access-control-allow-credentials: true
-access-control-max-age: 604800
-Content-Length: 0
-strict-transport-security: max-age=31536000
-x-content-type-options: nosniff
-date: Mon, 14 Aug 2023 18:44:25 GMT
-server: envoy
-Via: HTTP/2 edgeproxy, 1.1 google
-Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
-]]></system-out>
+  <testcase name="GetPlaylist" classname="com.spotify.oauth2.tests.PlaylistTests" time="0.896">
+    <failure message="ABORT !!! Failed to get token" type="java.lang.RuntimeException"><![CDATA[java.lang.RuntimeException: ABORT !!! Failed to get token
+	at com.spotify.oauth2.api.TokenManager.get_token(TokenManager.java:45)
+	at com.spotify.oauth2.api.applicationApi.PlaylistAPI.Get(PlaylistAPI.java:38)
+	at com.spotify.oauth2.tests.PlaylistTests.GetPlaylist(PlaylistTests.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]></failure>
   </testcase>
-  <testcase name="ShouldBeAbleToCreatePlaylist" classname="com.spotify.oauth2.tests.PlaylistTests" time="3.075">
-    <system-out><![CDATA[HTTP/1.1 201 Created
-content-type: application/json; charset=utf-8
-cache-control: private, max-age=0
-location: https://api.spotify.com/v1/playlists/6LVIGw8LHD20uvkuBaOZKl
-x-robots-tag: noindex, nofollow
-access-control-allow-origin: *
-access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
-access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
-access-control-allow-credentials: true
-access-control-max-age: 604800
-content-encoding: gzip
-strict-transport-security: max-age=31536000
-x-content-type-options: nosniff
-date: Mon, 14 Aug 2023 18:44:25 GMT
-server: envoy
-Via: HTTP/2 edgeproxy, 1.1 google
-Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
-Transfer-Encoding: chunked
-
-{
-    "collaborative": false,
-    "description": "DescriptionoVcZ50_&8&___5_xRIb__M&_6n_&4p_qa4&eUi&eOUA&Ok&Va_",
-    "external_urls": {
-        "spotify": "https://open.spotify.com/playlist/6LVIGw8LHD20uvkuBaOZKl"
-    },
-    "followers": {
-        "href": null,
-        "total": 0
-    },
-    "href": "https://api.spotify.com/v1/playlists/6LVIGw8LHD20uvkuBaOZKl",
-    "id": "6LVIGw8LHD20uvkuBaOZKl",
-    "images": [
-        
-    ],
-    "name": "Playlist,_Wc_1S_X6,52_-F73Yl",
-    "owner": {
-        "display_name": "h9x04fizo1rcd86beet3hm8yd",
-        "external_urls": {
-            "spotify": "https://open.spotify.com/user/h9x04fizo1rcd86beet3hm8yd"
-        },
-        "href": "https://api.spotify.com/v1/users/h9x04fizo1rcd86beet3hm8yd",
-        "id": "h9x04fizo1rcd86beet3hm8yd",
-        "type": "user",
-        "uri": "spotify:user:h9x04fizo1rcd86beet3hm8yd"
-    },
-    "primary_color": null,
-    "public": false,
-    "snapshot_id": "MSxlMWVmZWQxNjY4ZWJlYjY0NmMzMzc5YjY2MTBmOWVhNzEzODlhMTIz",
-    "tracks": {
-        "href": "https://api.spotify.com/v1/playlists/6LVIGw8LHD20uvkuBaOZKl/tracks",
-        "items": [
-            
-        ],
-        "limit": 100,
-        "next": null,
-        "offset": 0,
-        "previous": null,
-        "total": 0
-    },
-    "type": "playlist",
-    "uri": "spotify:playlist:6LVIGw8LHD20uvkuBaOZKl"
-}
-]]></system-out>
+  <testcase name="ShouldBeAbleToCreatePlaylist_negative_scenario_namemissing" classname="com.spotify.oauth2.tests.PlaylistTests" time="0.896">
+    <failure message="ABORT !!! Failed to get token" type="java.lang.RuntimeException"><![CDATA[java.lang.RuntimeException: ABORT !!! Failed to get token
+	at com.spotify.oauth2.api.TokenManager.get_token(TokenManager.java:45)
+	at com.spotify.oauth2.api.applicationApi.PlaylistAPI.Post(PlaylistAPI.java:22)
+	at com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToCreatePlaylist_negative_scenario_namemissing(PlaylistTests.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+]]></failure>
   </testcase>
 </testsuite>

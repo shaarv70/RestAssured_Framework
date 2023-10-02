@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
-              <span class="suite-name border-passed">Surefire suite</span>
+              <span class="suite-name border-failed">Surefire suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,41 +92,41 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">5 methods, 5 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
-                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
                     </span>
-                    <div class="method-list-content passed suite-Surefire_suite">
+                    <div class="method-list-content failed suite-Surefire_suite">
                       <span>
-                        <img src="passed.png" width="3%"/>
+                        <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="com.spotify.oauth2.tests.PlaylistTests" class="method navigator-link" hash-for-method="GetPlaylist">GetPlaylist</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
+                        <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="com.spotify.oauth2.tests.PlaylistTests" class="method navigator-link" hash-for-method="ShouldBeAbleToCreatePlaylist">ShouldBeAbleToCreatePlaylist</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
+                        <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="com.spotify.oauth2.tests.PlaylistTests" class="method navigator-link" hash-for-method="ShouldBeAbleToCreatePlaylist_negative_scenario_expiredtoken">ShouldBeAbleToCreatePlaylist_negative_scenario_expiredtoken</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
+                        <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="com.spotify.oauth2.tests.PlaylistTests" class="method navigator-link" hash-for-method="ShouldBeAbleToCreatePlaylist_negative_scenario_namemissing">ShouldBeAbleToCreatePlaylist_negative_scenario_namemissing</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
+                        <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="com.spotify.oauth2.tests.PlaylistTests" class="method navigator-link" hash-for-method="UpdatePlaylist">UpdatePlaylist</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -138,9 +138,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
-          <div class="suite-Surefire_suite-class-passed">
+          <div class="suite-Surefire_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.spotify.oauth2.tests.PlaylistTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -149,6 +149,15 @@
                   <a name="GetPlaylist">
                   </a> <!-- GetPlaylist -->
                   <span class="method-name">GetPlaylist</span>
+                  <div class="stack-trace">java.lang.RuntimeException: ABORT !!! Failed to get token
+	at com.spotify.oauth2.api.TokenManager.get_token(TokenManager.java:45)
+	at com.spotify.oauth2.api.applicationApi.PlaylistAPI.Get(PlaylistAPI.java:38)
+	at com.spotify.oauth2.tests.PlaylistTests.GetPlaylist(PlaylistTests.java:61)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -156,6 +165,15 @@
                   <a name="ShouldBeAbleToCreatePlaylist">
                   </a> <!-- ShouldBeAbleToCreatePlaylist -->
                   <span class="method-name">ShouldBeAbleToCreatePlaylist</span>
+                  <div class="stack-trace">java.lang.RuntimeException: ABORT !!! Failed to get token
+	at com.spotify.oauth2.api.TokenManager.get_token(TokenManager.java:45)
+	at com.spotify.oauth2.api.applicationApi.PlaylistAPI.Post(PlaylistAPI.java:22)
+	at com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToCreatePlaylist(PlaylistTests.java:45)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
                   <em>
 (Should be able to create a playlist)                  </em>
                 </div> <!-- method-content -->
@@ -165,6 +183,27 @@
                   <a name="ShouldBeAbleToCreatePlaylist_negative_scenario_expiredtoken">
                   </a> <!-- ShouldBeAbleToCreatePlaylist_negative_scenario_expiredtoken -->
                   <span class="method-name">ShouldBeAbleToCreatePlaylist_negative_scenario_expiredtoken</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Base URI cannot be null
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:53)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:240)
+	at io.restassured.internal.RequestSpecificationImpl.baseUri(RequestSpecificationImpl.groovy:704)
+	at io.restassured.builder.RequestSpecBuilder.setBaseUri(RequestSpecBuilder.java:1112)
+	at com.spotify.oauth2.api.SpecBuilder.getRequestSpecefication(SpecBuilder.java:18)
+	at com.spotify.oauth2.api.RestResource.Post(RestResource.java:30)
+	at com.spotify.oauth2.api.applicationApi.PlaylistAPI.Post(PlaylistAPI.java:30)
+	at com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToCreatePlaylist_negative_scenario_expiredtoken(PlaylistTests.java:114)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -172,6 +211,15 @@
                   <a name="ShouldBeAbleToCreatePlaylist_negative_scenario_namemissing">
                   </a> <!-- ShouldBeAbleToCreatePlaylist_negative_scenario_namemissing -->
                   <span class="method-name">ShouldBeAbleToCreatePlaylist_negative_scenario_namemissing</span>
+                  <div class="stack-trace">java.lang.RuntimeException: ABORT !!! Failed to get token
+	at com.spotify.oauth2.api.TokenManager.get_token(TokenManager.java:45)
+	at com.spotify.oauth2.api.applicationApi.PlaylistAPI.Post(PlaylistAPI.java:22)
+	at com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToCreatePlaylist_negative_scenario_namemissing(PlaylistTests.java:98)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -179,10 +227,19 @@
                   <a name="UpdatePlaylist">
                   </a> <!-- UpdatePlaylist -->
                   <span class="method-name">UpdatePlaylist</span>
+                  <div class="stack-trace">java.lang.RuntimeException: ABORT !!! Failed to get token
+	at com.spotify.oauth2.api.TokenManager.get_token(TokenManager.java:45)
+	at com.spotify.oauth2.api.applicationApi.PlaylistAPI.Update(PlaylistAPI.java:45)
+	at com.spotify.oauth2.tests.PlaylistTests.UpdatePlaylist(PlaylistTests.java:78)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-passed -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
         </div> <!-- panel Surefire_suite -->
         <div panel-name="test-xml-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -237,30 +294,30 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'ShouldBeAbleToCreatePlaylist')
+data.setCell(0, 1, 'ShouldBeAbleToCreatePlaylist_negative_scenario_namemissing')
 data.setCell(0, 2, 'com.spotify.oauth2.tests.PlaylistTests')
-data.setCell(0, 3, 3071);
+data.setCell(0, 3, 867);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'UpdatePlaylist')
 data.setCell(1, 2, 'com.spotify.oauth2.tests.PlaylistTests')
-data.setCell(1, 3, 3000);
+data.setCell(1, 3, 866);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'GetPlaylist')
+data.setCell(2, 1, 'ShouldBeAbleToCreatePlaylist')
 data.setCell(2, 2, 'com.spotify.oauth2.tests.PlaylistTests')
-data.setCell(2, 3, 2952);
+data.setCell(2, 3, 865);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'ShouldBeAbleToCreatePlaylist_negative_scenario_namemissing')
+data.setCell(3, 1, 'GetPlaylist')
 data.setCell(3, 2, 'com.spotify.oauth2.tests.PlaylistTests')
-data.setCell(3, 3, 2900);
+data.setCell(3, 3, 863);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'ShouldBeAbleToCreatePlaylist_negative_scenario_expiredtoken')
 data.setCell(4, 2, 'com.spotify.oauth2.tests.PlaylistTests')
-data.setCell(4, 3, 2200);
+data.setCell(4, 3, 862);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 14 seconds</span>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -288,11 +345,7 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.spotify.oauth2.tests.PlaylistTests</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void com.spotify.oauth2.tests.PlaylistTests.UpdatePlaylist())</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToCreatePlaylist_negative_scenario_ex...)</span>
+                <span class="method-name">beforeMethod(public void com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToCreatePlaylist_negative_scenario_na...)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
@@ -300,32 +353,46 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToCreatePlaylist_negative_scenario_na...)</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void com.spotify.oauth2.tests.PlaylistTests.GetPlaylist())</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.spotify.oauth2.tests.PlaylistTests.UpdatePlaylist())</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToCreatePlaylist_negative_scenario_ex...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">UpdatePlaylist</span>
-                <span class="method-start">104 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">ShouldBeAbleToCreatePlaylist_negative_scenario_expiredtoken</span>
-                <span class="method-start">104 ms</span>
+                <span class="method-start">114 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">ShouldBeAbleToCreatePlaylist_negative_scenario_namemissing</span>
-                <span class="method-start">104 ms</span>
+                <span class="method-start">114 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">GetPlaylist</span>
-                <span class="method-start">104 ms</span>
+                <span class="method-start">114 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">ShouldBeAbleToCreatePlaylist</span>
-                <span class="method-start">104 ms</span>
+                <span class="method-start">114 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">UpdatePlaylist</span>
+                <span class="method-start">114 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

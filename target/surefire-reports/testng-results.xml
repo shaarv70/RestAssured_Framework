@@ -1,46 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="0" failed="5" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-15T00:14:22 IST" name="Surefire suite" finished-at="2023-08-15T00:14:25 IST" duration-ms="3228">
+  <suite started-at="2023-10-02T15:51:31 IST" name="Surefire suite" finished-at="2023-10-02T15:51:32 IST" duration-ms="1063">
     <groups>
     </groups>
-    <test started-at="2023-08-15T00:14:22 IST" name="Surefire test" finished-at="2023-08-15T00:14:25 IST" duration-ms="3228">
+    <test started-at="2023-10-02T15:51:31 IST" name="Surefire test" finished-at="2023-10-02T15:51:32 IST" duration-ms="1063">
       <class name="com.spotify.oauth2.tests.PlaylistTests">
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.spotify.oauth2.tests.PlaylistTests@7f9ab969]" started-at="2023-08-15T00:14:22 IST" name="beforeMethod" finished-at="2023-08-15T00:14:22 IST" duration-ms="19" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.spotify.oauth2.tests.PlaylistTests.UpdatePlaylist()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.spotify.oauth2.tests.PlaylistTests@7f9ab969]" started-at="2023-08-15T00:14:22 IST" name="beforeMethod" finished-at="2023-08-15T00:14:22 IST" duration-ms="19" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToCreatePlaylist_negative_scenario_expiredtoken()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.spotify.oauth2.tests.PlaylistTests@7f9ab969]" started-at="2023-08-15T00:14:22 IST" name="beforeMethod" finished-at="2023-08-15T00:14:22 IST" duration-ms="19" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToCreatePlaylist()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.spotify.oauth2.tests.PlaylistTests@7f9ab969]" started-at="2023-08-15T00:14:22 IST" name="beforeMethod" finished-at="2023-08-15T00:14:22 IST" duration-ms="19" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.spotify.oauth2.tests.PlaylistTests@65fd6708]" started-at="2023-10-02T15:51:31 IST" name="beforeMethod" finished-at="2023-10-02T15:51:31 IST" duration-ms="19" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,7 +18,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.spotify.oauth2.tests.PlaylistTests@7f9ab969]" started-at="2023-08-15T00:14:22 IST" name="beforeMethod" finished-at="2023-08-15T00:14:22 IST" duration-ms="19" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.spotify.oauth2.tests.PlaylistTests@65fd6708]" started-at="2023-10-02T15:51:31 IST" name="beforeMethod" finished-at="2023-10-02T15:51:31 IST" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToCreatePlaylist()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.spotify.oauth2.tests.PlaylistTests@65fd6708]" started-at="2023-10-02T15:51:31 IST" name="beforeMethod" finished-at="2023-10-02T15:51:31 IST" duration-ms="19" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -62,26 +40,202 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="UpdatePlaylist()[pri:0, instance:com.spotify.oauth2.tests.PlaylistTests@7f9ab969]" started-at="2023-08-15T00:14:22 IST" name="UpdatePlaylist" finished-at="2023-08-15T00:14:25 IST" duration-ms="3000" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.spotify.oauth2.tests.PlaylistTests@65fd6708]" started-at="2023-10-02T15:51:31 IST" name="beforeMethod" finished-at="2023-10-02T15:51:31 IST" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spotify.oauth2.tests.PlaylistTests.UpdatePlaylist()]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- UpdatePlaylist -->
-        <test-method signature="ShouldBeAbleToCreatePlaylist_negative_scenario_expiredtoken()[pri:0, instance:com.spotify.oauth2.tests.PlaylistTests@7f9ab969]" started-at="2023-08-15T00:14:22 IST" name="ShouldBeAbleToCreatePlaylist_negative_scenario_expiredtoken" finished-at="2023-08-15T00:14:25 IST" duration-ms="2200" status="PASS">
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.spotify.oauth2.tests.PlaylistTests@65fd6708]" started-at="2023-10-02T15:51:31 IST" name="beforeMethod" finished-at="2023-10-02T15:51:31 IST" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToCreatePlaylist_negative_scenario_expiredtoken()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="ShouldBeAbleToCreatePlaylist_negative_scenario_expiredtoken()[pri:0, instance:com.spotify.oauth2.tests.PlaylistTests@65fd6708]" started-at="2023-10-02T15:51:31 IST" name="ShouldBeAbleToCreatePlaylist_negative_scenario_expiredtoken" finished-at="2023-10-02T15:51:32 IST" duration-ms="862" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Base URI cannot be null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Base URI cannot be null
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:53)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:240)
+at io.restassured.internal.RequestSpecificationImpl.baseUri(RequestSpecificationImpl.groovy:704)
+at io.restassured.builder.RequestSpecBuilder.setBaseUri(RequestSpecBuilder.java:1112)
+at com.spotify.oauth2.api.SpecBuilder.getRequestSpecefication(SpecBuilder.java:18)
+at com.spotify.oauth2.api.RestResource.Post(RestResource.java:30)
+at com.spotify.oauth2.api.applicationApi.PlaylistAPI.Post(PlaylistAPI.java:30)
+at com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToCreatePlaylist_negative_scenario_expiredtoken(PlaylistTests.java:114)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ShouldBeAbleToCreatePlaylist_negative_scenario_expiredtoken -->
-        <test-method signature="ShouldBeAbleToCreatePlaylist_negative_scenario_namemissing()[pri:0, instance:com.spotify.oauth2.tests.PlaylistTests@7f9ab969]" started-at="2023-08-15T00:14:22 IST" name="ShouldBeAbleToCreatePlaylist_negative_scenario_namemissing" finished-at="2023-08-15T00:14:25 IST" duration-ms="2900" status="PASS">
+        <test-method signature="ShouldBeAbleToCreatePlaylist_negative_scenario_namemissing()[pri:0, instance:com.spotify.oauth2.tests.PlaylistTests@65fd6708]" started-at="2023-10-02T15:51:31 IST" name="ShouldBeAbleToCreatePlaylist_negative_scenario_namemissing" finished-at="2023-10-02T15:51:32 IST" duration-ms="867" status="FAIL">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[ABORT !!! Failed to get token]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: ABORT !!! Failed to get token
+at com.spotify.oauth2.api.TokenManager.get_token(TokenManager.java:45)
+at com.spotify.oauth2.api.applicationApi.PlaylistAPI.Post(PlaylistAPI.java:22)
+at com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToCreatePlaylist_negative_scenario_namemissing(PlaylistTests.java:98)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ShouldBeAbleToCreatePlaylist_negative_scenario_namemissing -->
-        <test-method signature="GetPlaylist()[pri:0, instance:com.spotify.oauth2.tests.PlaylistTests@7f9ab969]" started-at="2023-08-15T00:14:22 IST" name="GetPlaylist" finished-at="2023-08-15T00:14:25 IST" duration-ms="2952" status="PASS">
+        <test-method signature="GetPlaylist()[pri:0, instance:com.spotify.oauth2.tests.PlaylistTests@65fd6708]" started-at="2023-10-02T15:51:31 IST" name="GetPlaylist" finished-at="2023-10-02T15:51:32 IST" duration-ms="863" status="FAIL">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[ABORT !!! Failed to get token]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: ABORT !!! Failed to get token
+at com.spotify.oauth2.api.TokenManager.get_token(TokenManager.java:45)
+at com.spotify.oauth2.api.applicationApi.PlaylistAPI.Get(PlaylistAPI.java:38)
+at com.spotify.oauth2.tests.PlaylistTests.GetPlaylist(PlaylistTests.java:61)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetPlaylist -->
-        <test-method signature="ShouldBeAbleToCreatePlaylist()[pri:0, instance:com.spotify.oauth2.tests.PlaylistTests@7f9ab969]" started-at="2023-08-15T00:14:22 IST" name="ShouldBeAbleToCreatePlaylist" description="Should be able to create a playlist" finished-at="2023-08-15T00:14:25 IST" duration-ms="3071" status="PASS">
+        <test-method signature="ShouldBeAbleToCreatePlaylist()[pri:0, instance:com.spotify.oauth2.tests.PlaylistTests@65fd6708]" started-at="2023-10-02T15:51:31 IST" name="ShouldBeAbleToCreatePlaylist" description="Should be able to create a playlist" finished-at="2023-10-02T15:51:32 IST" duration-ms="865" status="FAIL">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[ABORT !!! Failed to get token]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: ABORT !!! Failed to get token
+at com.spotify.oauth2.api.TokenManager.get_token(TokenManager.java:45)
+at com.spotify.oauth2.api.applicationApi.PlaylistAPI.Post(PlaylistAPI.java:22)
+at com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToCreatePlaylist(PlaylistTests.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ShouldBeAbleToCreatePlaylist -->
+        <test-method signature="UpdatePlaylist()[pri:0, instance:com.spotify.oauth2.tests.PlaylistTests@65fd6708]" started-at="2023-10-02T15:51:31 IST" name="UpdatePlaylist" finished-at="2023-10-02T15:51:32 IST" duration-ms="866" status="FAIL">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[ABORT !!! Failed to get token]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: ABORT !!! Failed to get token
+at com.spotify.oauth2.api.TokenManager.get_token(TokenManager.java:45)
+at com.spotify.oauth2.api.applicationApi.PlaylistAPI.Update(PlaylistAPI.java:45)
+at com.spotify.oauth2.tests.PlaylistTests.UpdatePlaylist(PlaylistTests.java:78)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdatePlaylist -->
       </class> <!-- com.spotify.oauth2.tests.PlaylistTests -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
