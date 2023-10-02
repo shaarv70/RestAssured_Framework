@@ -45,7 +45,7 @@ public class PlaylistTests extends BaseTest
 		Response response= PlaylistAPI.Post(requestPlaylist,account_id);
 		assertStatusCode(response,StatusCode.CODE_201);
 		assertPlaylist(response.as(Playlist.class), requestPlaylist);
-
+  
 	}
 
 
@@ -148,6 +148,7 @@ public class PlaylistTests extends BaseTest
 	assertThat(error.getError().getMessage(),equalTo(statuscode.msg));
 	}
 
+	//just checing
 
 
 }

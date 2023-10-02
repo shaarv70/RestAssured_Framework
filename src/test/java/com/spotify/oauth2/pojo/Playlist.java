@@ -13,7 +13,7 @@ import lombok.extern.jackson.Jacksonized;
 
 
 @Data   // - this annotation of lombok will provide some useful methods on its own.
-//@Getter @Setter//This will replace all getter and setter  methods
+@Getter @Setter//This will replace all getter and setter  methods
 @Value   //with this annotation we dont need tp use  with the variables            
 @Jacksonized  //    recognize the jackson annotations, so to make it recognize we will use @Jacksonized
 @Builder      // This will enable us to use the builder pattern(method chaining ) in Playlisttest in request playlist but this will not                          
