@@ -13,8 +13,7 @@ public class PropertyUtils {
 	   {
 		  rb= ResourceBundle.getBundle("config");
 	   }
-	   
-	   return rb;
+	 return rb;
    }
 
 
