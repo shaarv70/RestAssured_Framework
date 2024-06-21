@@ -4,11 +4,11 @@
 
 import com.spotify.oauth2.api.RestResource;
 import com.spotify.oauth2.api.Route;
-import com.spotify.oauth2.pojo.Playlist;
 
 import io.qameta.allure.Step;
 import io.restassured.response.Response;
 import com.spotify.oauth2.api.TokenManager;
+import com.spotify.oauth2.playlistpojo.Playlist;
 
 
 

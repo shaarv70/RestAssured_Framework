@@ -3,16 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.spotify.oauth2.tests.PlaylistTests">
+      <class name="com.spotify.oauth2.tests.ArtistTests">
         <methods>
-          <include name="ShouldBeAbleToCreatePlaylist_negative_scenario_namemissing"/>
-          <include name="ShouldBeAbleToCreatePlaylist"/>
-          <include name="UpdatePlaylist"/>
-          <include name="ShouldBeAbleToCreatePlaylist_negative_scenario_expiredtoken"/>
-          <include name="GetPlaylist"/>
+          <include name="getArtist"/>
           <include name="beforeMethod"/>
         </methods>
-      </class> <!-- com.spotify.oauth2.tests.PlaylistTests -->
+      </class> <!-- com.spotify.oauth2.tests.ArtistTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

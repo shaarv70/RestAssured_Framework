@@ -16,7 +16,7 @@
           <version>3.1.2</version>
           <configuration>
           <parallel>methods</parallel>
-          <threadCount>10</threadCount>
+          <threadCount>10</threadCount>      <!--Default thread count willl be 5-->
                 <argLine>
                     -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                 </argLine>
@@ -114,11 +114,14 @@
     <artifactId>javafaker</artifactId>
     <version>1.0.2</version>
 </dependency>
+<!-- https://mvnrepository.com/artifact/org.aspectj/aspectjweaver -->
+<dependency>
+    <groupId>org.aspectj</groupId>
+    <artifactId>aspectjweaver</artifactId>
+    <version>1.9.2</version>
+    <scope>runtime</scope>
+</dependency>
 
-
-
-	
-	
 </dependencies>
 
 

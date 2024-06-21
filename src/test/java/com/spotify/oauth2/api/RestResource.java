@@ -3,6 +3,8 @@ package com.spotify.oauth2.api;
 import static io.restassured.RestAssured.given;
 
 import java.util.HashMap;
+import java.util.List;
+
 import io.restassured.response.Response;
 
 public class RestResource extends SpecBuilder{
@@ -66,7 +68,19 @@ public class RestResource extends SpecBuilder{
 				when().put(path).
 
 				then().spec(getResponseSpecefication()).extract().response();
+    }
+	
+	public static Response Get(List<String> ids,String access_token,String path)
+	{
+		return	
+				given(getRequestSpecefication()).queryParam("ids", ids).
+				auth().oauth2(access_token).
 
+				when().get(path).
+
+				then().spec(getResponseSpecefication()).
+				extract().response();
+		
 	}
 
 
